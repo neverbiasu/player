@@ -1,0 +1,45 @@
+{
+  "revision": "95b663ec492a7ee72440cedca7a60558de259c7a",
+  "variant": "after",
+  "trackingPatchSha256": "5dae01523a33de1c1eb72bf8644b7f727294d1077c6b6a6a093f4dd49681f35c",
+  "exportedAt": "2026-11-07T00:52:19.265Z",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "platform": "MacIntel",
+  "character": "d03ft",
+  "source": "example/demo.html, real camera (operator attested)",
+  "operatorAttested": true,
+  "cases": [
+    {
+      "id": "true-tilt-left",
+      "mirror": true,
+      "motion": "头顶向你的左肩倾斜",
+      "observed": "unclear",
+      "capturedAt": "2026-11-07T00:51:20.552Z",
+      "screenshot": "after-true-tilt-left.png"
+    },
+    {
+      "id": "true-yaw-left",
+      "mirror": true,
+      "motion": "脸转向你自己的左侧",
+      "observed": "unclear",
+      "capturedAt": "2026-11-07T00:51:05.180Z",
+      "screenshot": "after-true-yaw-left.png"
+    },
+    {
+      "id": "false-tilt-left",
+      "mirror": false,
+      "motion": "头顶向你的左肩倾斜",
+      "observed": "screen-right",
+      "capturedAt": "2026-11-07T00:51:40.249Z",
+      "screenshot": "after-false-tilt-left.png"
+    },
+    {
+      "id": "false-yaw-left",
+      "mirror": false,
+      "motion": "脸转向你自己的左侧",
+      "observed": "screen-right",
+      "capturedAt": "2026-11-07T00:52:13.130Z",
+      "screenshot": "after-false-yaw-left.png"
+    }
+  ]
+}
